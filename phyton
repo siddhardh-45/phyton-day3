@@ -1,0 +1,43 @@
+m=int(input("enter the size of list"))
+marks =[0]*m
+for i in range(m):
+    marks[i]=int(input("enter the number"))
+
+
+valid = 0
+fail =0
+num  =668
+for i in range(m):
+    if num%2 ==0 :
+        marks[i]+=2
+
+
+
+for i in range(m):
+
+    if marks[i] <=100 and marks[i]> 90 :
+        print(marks[i],"->excellent")
+        valid +=1
+
+    elif marks[i]<=89 and marks[i]>75:
+        print(marks[i], "-> Very Good")
+        valid += 1
+
+    elif marks[i] <= 74 and marks[i] > 60:
+        print(marks[i], "-> Good")
+        valid += 1
+
+    elif marks[i] <= 59 and marks[i] > 40 :
+        print(marks[i], "-> Average")
+        valid += 1
+
+    elif marks[i] <= 39 and marks[i] >= 0 :
+        print(marks[i], "-> Fail")
+        valid += 1
+        fail += 1
+
+    else:
+        print(marks[i], "-> Invalid")
+
+print("total valid students", valid)
+print("total failed students", fail)
