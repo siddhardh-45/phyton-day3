@@ -1,3 +1,4 @@
+
  
 User Marks Validation System
 Overview
@@ -44,3 +45,4 @@ Grade for each student
 Total valid students
 
 Total failed students
+<img width="1268" height="919" alt="Screenshot (2)" src="https://github.com/user-attachments/assets/6cae5a5c-5584-45e3-b271-6cd429218dc5" />
